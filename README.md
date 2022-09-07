@@ -14,6 +14,8 @@
 
 ## Live Demo
 
+[Click this link to view](https://mromachi.github.io/Math-Magician/).**
+
 Coming soon :smile:
 
 ## Getting Started
