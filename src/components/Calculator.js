@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import calculate from './logic/calculator';
 import Navbar from './pages/Navbar';
 
-// eslint-disable-next-line react/prefer-stateless-function
 class Calculator extends Component {
   constructor(props) {
     super(props);

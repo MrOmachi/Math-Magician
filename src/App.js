@@ -4,7 +4,6 @@ import Calculator from './components/Calculator';
 import Home from './components/pages/Home';
 import Quotes from './components/pages/Quotes';
 
-// eslint-disable-next-line react/prefer-stateless-function
 function App() {
   return (
     <BrowserRouter>
