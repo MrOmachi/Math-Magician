@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import calculate from './logic/calculator';
+import Navbar from './pages/Navbar';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class Calculator extends Component {
@@ -22,6 +23,7 @@ class Calculator extends Component {
     const { total, next, operation } = this.state;
     return (
       <div>
+        <Navbar />
         <div className="calc">
           <div className="displayScreen">
             {total}
