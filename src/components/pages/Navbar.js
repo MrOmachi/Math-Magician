@@ -18,9 +18,15 @@ function Navbar() {
       <header style={navStyles}>
         <h1>Math Magician</h1>
         <ul style={listItemStyle}>
-          <li><Link to="/Math-magician">Home</Link></li>
-          <li><Link to="/Calculator">Calculator</Link></li>
-          <li><Link to="/Quotes">Quotes</Link></li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/Calculator">Calculator</Link>
+          </li>
+          <li>
+            <Link to="/Quotes">Quotes</Link>
+          </li>
         </ul>
       </header>
     </div>

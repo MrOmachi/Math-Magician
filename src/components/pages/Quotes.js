@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './pages/Navbar';
+import Navbar from './Navbar';
 
 function Quotes() {
   return (
