@@ -1,12 +1,18 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import React from 'react';
 import Calculator from './components/Calculator';
+import Home from './components/pages/Home';
+import Quotes from './components/pages/Quotes';
 
 function App() {
   return (
-    <div>
-      <Calculator />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="Calculator" element={<Calculator />} />
+        <Route path="Quotes" element={<Quotes />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
