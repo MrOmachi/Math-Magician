@@ -23,17 +23,17 @@ describe("Testing the App UI", () => {
     expect(btn.length).toBe(19);
   });
 
-  // test("Quote UI component", () => {
-  //   render(
-  //     <Router>
-  //       <Quotes />
-  //     </Router>
-  //   );
+  test("Quote UI component", () => {
+    render(
+      <Router>
+        <Quotes />
+      </Router>
+    );
 
-  //   const str = screen.getByText(
-  //     /Mathematics is not about numbers, equations, computations or algorithms, it is about understanding - William Paul Thurston/i
-  //   );
+    const str = screen.getByText(
+      /Mathematics is not about numbers, equations, computations or algorithms, it is about understanding - William Paul Thurston/i
+    );
 
-  //   expect(str).toBeInTheDocument();
-  // });
+    expect(str).toBeInTheDocument();
+  });
 });
