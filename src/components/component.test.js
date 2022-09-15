@@ -14,12 +14,13 @@ describe('Testing the App UI', () => {
   });
 
   test('Calculator UI component', async () => {
-    render(
+    const calc = render(
       <Router>
         <Calculator />
       </Router>,
     );
     const btn = await screen.findAllByRole('button');
+    expect(calc).toMatchSnapshot()
     expect(btn.length).toBe(19);
   });
 
