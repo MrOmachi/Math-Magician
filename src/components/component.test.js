@@ -11,7 +11,7 @@ describe('Testing the App UI', () => {
         <Home />
       </Router>,
     );
-    expect(home).toMatchSnapshot()
+    expect(home).toMatchSnapshot();
   });
 
   test('Calculator UI component', async () => {
@@ -21,7 +21,7 @@ describe('Testing the App UI', () => {
       </Router>,
     );
     const btn = await screen.findAllByRole('button');
-    expect(calc).toMatchSnapshot()
+    expect(calc).toMatchSnapshot();
     expect(btn.length).toBe(19);
   });
 
@@ -36,7 +36,7 @@ describe('Testing the App UI', () => {
       /Mathematics is not about numbers, equations, computations or algorithms, it is about understanding - William Paul Thurston/i,
     );
 
-    expect(quote).toMatchSnapshot()
+    expect(quote).toMatchSnapshot();
     expect(str).toBeInTheDocument();
   });
 });
