@@ -25,7 +25,7 @@ describe('Testing the App UI', () => {
   });
 
   test('Quote UI component', () => {
-    render(
+    const quote = render(
       <Router>
         <Quotes />
       </Router>,
@@ -35,6 +35,7 @@ describe('Testing the App UI', () => {
       /Mathematics is not about numbers, equations, computations or algorithms, it is about understanding - William Paul Thurston/i,
     );
 
+    expect(quote).toMatchSnapshot()
     expect(str).toBeInTheDocument();
   });
 });
