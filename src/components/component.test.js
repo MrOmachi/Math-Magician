@@ -6,11 +6,12 @@ import Calculator from './Calculator';
 
 describe('Testing the App UI', () => {
   test('Testing home UI component', () => {
-    render(
+    const home = render(
       <Router>
         <Home />
       </Router>,
     );
+    expect(home).toMatchSnapshot()
   });
 
   test('Calculator UI component', async () => {
