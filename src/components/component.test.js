@@ -13,15 +13,15 @@ describe("Testing the App UI", () => {
     );
   });
 
-  // test("Calculator UI component", async () => {
-  //   render(
-  //     <Router>
-  //       <Calculator />
-  //     </Router>
-  //   );
-  //   const btn = await screen.findAllByRole("button");
-  //   expect(btn.length).toBe(19);
-  // });
+  test("Calculator UI component", async () => {
+    render(
+      <Router>
+        <Calculator />
+      </Router>
+    );
+    const btn = await screen.findAllByRole("button");
+    expect(btn.length).toBe(19);
+  });
 
   // test("Quote UI component", () => {
   //   render(
