@@ -28,4 +28,8 @@ describe('Testing functional components', () => {
   test('Testing operate function for x', () => {
     expect(operate(10, 5, 'x')).toBe('50');
   });
+
+  test('Testing operate function for %', () => {
+    expect(operate(10, 5, '%')).toBe('0');
+  });
 });
