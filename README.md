@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Click this link to view](https://mromachi.github.io/Math-Magician/).**
+[Click this link to view](https://clinquant-macaron-6cb8fb.netlify.app/).\*\*
 
 Coming soon :smile:
 
